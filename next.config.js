@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath: "/shun-wei",
-  assetPrefix: "/shun-wei",
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = nextConfig;

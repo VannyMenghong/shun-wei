@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build && next export",
-    "homepage": "https://vannymenghong.github.io/shun-wei"
+    "export": "next build && next export"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
