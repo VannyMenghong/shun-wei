@@ -222,7 +222,7 @@ export default function Menu2() {
       <section style={{ margin: "80px 0px" }}>
         <Grid container>
           <Grid item xs={12} md={6} sx={{ p: 2 }}>
-            <a className={`${styles.logo}`} href="#" rel="noopener noreferrer">
+            <a href="#" rel="noopener noreferrer" className={`${styles.logo}`}>
               <Image src="/favicon.jpeg" alt="Shun Wei" width={50} height={50} priority />
               <h5 style={{ whiteSpace: "nowrap", textTransform: "uppercase", color: COLORS.green.dark, fontWeight: "800" }}>
                 shun wei fang <br />
