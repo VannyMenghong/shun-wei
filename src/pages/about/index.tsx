@@ -48,7 +48,7 @@ export default function Menu2() {
               <Box sx={{ display: "flex", flexDirection: "column", width: "250px" }}>
                 <Box sx={{ display: "flex", justifyContent: { xs: "center", md: "left" } }}>
                   <a className={`${styles.logo}`} href="#" rel="noopener noreferrer">
-                    <Image alt="Shun Wei" src="/favicon.jpeg" width={50} height={50} priority />
+                    <img alt="Shun Wei" src="/favicon.jpeg" width={50} height={50} />
                     <h5 style={{ whiteSpace: "nowrap", textTransform: "uppercase", color: COLORS.green.dark, fontWeight: "800" }}>
                       shun wei fang <br />
                       zhi ke ji co.,tld
@@ -86,8 +86,8 @@ export default function Menu2() {
           </Grid>
           <Grid item xs={12} md={6} sx={{ mt: { xs: 6, md: 0 }, p: 1 }}>
             <ImageListItem>
-              {/* <Image alt="" src={`assets/menu2/p${index + 1}.jpg`} loading="lazy" /> */}
-              <Image alt="" src={`/assets/menu2/p1.jpg?w=164&h=164&fit=crop&auto=format`} style={{ height: "auto", width: "100%" }} loading="lazy" />
+              {/* <img alt="" src={`assets/menu2/p${index + 1}.jpg`} loading="lazy" /> */}
+              <img alt="" src={`/assets/menu2/p1.jpg?w=164&h=164&fit=crop&auto=format`} style={{ height: "auto", width: "100%" }} loading="lazy" />
             </ImageListItem>
           </Grid>
         </Grid>
@@ -99,7 +99,7 @@ export default function Menu2() {
         <ImageList cols={3}>
           {[...Array(6)].map((item, index) => (
             <ImageListItem key={index}>
-              <Image alt="" src={`assets/menu2/p${index + 1}.jpg`} loading="lazy" />
+              <img alt="" src={`assets/menu2/p${index + 1}.jpg`} loading="lazy" />
             </ImageListItem>
           ))}
         </ImageList>
@@ -119,7 +119,7 @@ export default function Menu2() {
             </div>
           </Grid>
           <Grid item xs={12} md={6}>
-            <Image alt="" src="assets/menu2/p8.jpg" style={{ height: "auto", width: "100%" }} />
+            <img alt="" src="assets/menu2/p8.jpg" style={{ height: "auto", width: "100%" }} />
           </Grid>
         </Grid>
       </section>
@@ -138,7 +138,7 @@ export default function Menu2() {
           </Grid>
           <Grid item xs={12} md={6} sx={{ p: 2 }}>
             <div style={{ marginTop: "50px" }}>
-              <Image alt="" src="assets/menu2/certificate.jpg" style={{ height: "auto", width: "100%" }} />
+              <img alt="" src="assets/menu2/certificate.jpg" style={{ height: "auto", width: "100%" }} />
             </div>
           </Grid>
         </Grid>
@@ -155,7 +155,7 @@ export default function Menu2() {
             </div>
           </Grid>
           <Grid item xs={12} md={6} sx={{ p: 2 }}>
-            <Image alt="" src="assets/menu2/p10.jpg" style={{ height: "auto", width: "100%" }} />
+            <img alt="" src="assets/menu2/p10.jpg" style={{ height: "auto", width: "100%" }} />
           </Grid>
         </Grid>
       </section>
@@ -171,7 +171,7 @@ export default function Menu2() {
             </div>
           </Grid>
           <Grid item xs={12} md={6} sx={{ p: 2 }}>
-            <Image alt="" src="assets/menu2/p15.jpg" style={{ height: "auto", width: "100%" }} />
+            <img alt="" src="assets/menu2/p15.jpg" style={{ height: "auto", width: "100%" }} />
           </Grid>
         </Grid>
       </section>
@@ -181,16 +181,16 @@ export default function Menu2() {
             <HeaderTitle sub="COMPANY PROCESS" main={"ALL OF OUR PRODUCTS"} is_center={false} />
           </Grid>
           <Grid item xs={12} md={12}>
-            <Image alt="" src="assets/menu2/p16.jpg" style={{ height: "auto", width: "100%" }} />
+            <img alt="" src="assets/menu2/p16.jpg" style={{ height: "auto", width: "100%" }} />
           </Grid>
           <Grid item xs={12} md={12}>
-            <Image alt="" src="assets/menu2/p17.jpg" style={{ height: "auto", width: "100%" }} />
+            <img alt="" src="assets/menu2/p17.jpg" style={{ height: "auto", width: "100%" }} />
           </Grid>
           <Grid item xs={12} md={12}>
-            <Image alt="" src="assets/menu2/p18.jpg" style={{ height: "auto", width: "100%" }} />
+            <img alt="" src="assets/menu2/p18.jpg" style={{ height: "auto", width: "100%" }} />
           </Grid>
           <Grid item xs={12} md={12}>
-            <Image alt="" src="assets/menu2/p19.jpg" style={{ height: "auto", width: "100%" }} />
+            <img alt="" src="assets/menu2/p19.jpg" style={{ height: "auto", width: "100%" }} />
           </Grid>
         </Grid>
       </section>
@@ -205,7 +205,7 @@ export default function Menu2() {
             </div>
           </Grid>
           <Grid item xs={12} md={12} sx={{ p: 1 }}>
-            <Image alt="" src="assets/menu2/p20.jpg" style={{ height: "auto", width: "100%" }} />
+            <img alt="" src="assets/menu2/p20.jpg" style={{ height: "auto", width: "100%" }} />
           </Grid>
         </Grid>
       </section>
@@ -215,7 +215,7 @@ export default function Menu2() {
             <HeaderTitle sub="OUR COMPANY" main={"MEET OUR TEAM"} is_center={false} />
           </Grid>
           <Grid item xs={12} md={12} sx={{ p: 1 }}>
-            <Image alt="" src="assets/menu2/p6.jpg" style={{ height: "auto", width: "100%" }} />
+            <img alt="" src="assets/menu2/p6.jpg" style={{ height: "auto", width: "100%" }} />
           </Grid>
         </Grid>
       </section>
@@ -223,7 +223,7 @@ export default function Menu2() {
         <Grid container>
           <Grid item xs={12} md={6} sx={{ p: 2 }}>
             <a href="#" rel="noopener noreferrer" className={`${styles.logo}`}>
-              <Image src="/favicon.jpeg" alt="Shun Wei" width={50} height={50} priority />
+              <img src="/favicon.jpeg" alt="Shun Wei" width={50} height={50} />
               <h5 style={{ whiteSpace: "nowrap", textTransform: "uppercase", color: COLORS.green.dark, fontWeight: "800" }}>
                 shun wei fang <br />
                 zhi ke ji co.,tld
@@ -237,7 +237,7 @@ export default function Menu2() {
             </p>
           </Grid>
           <Grid item xs={12} md={12} sx={{ p: 1 }}>
-            <Image alt="" src="assets/menu2/p6.jpg" style={{ height: "auto", width: "100%" }} />
+            <img alt="" src="assets/menu2/p6.jpg" style={{ height: "auto", width: "100%" }} />
           </Grid>
         </Grid>
       </section>

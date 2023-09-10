@@ -18,7 +18,7 @@ export default function Home() {
               lifecycle of a fabric, from cradle to grave, while making a positive impact on the world.
             </p>
           </div>
-          <Image alt="" className={styles.cover} src="/assets/home/p1.jpg" />
+          <img alt="" className={styles.cover} src="/assets/home/p1.jpg" />
         </section>
         <section id="step1" className={styles.section}>
           <div className={styles.description}>
@@ -32,17 +32,17 @@ export default function Home() {
           </div>
           <div className={styles.gallery}>
             <div>
-              <Image alt="" src="/assets/section1/p1.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section1/p1.jpg" />
             </div>
             <div>
-              <Image alt="" src="/assets/section1/p2.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section1/p2.jpg" />
             </div>
             <div
               style={{
                 width: "100%",
               }}
             >
-              <Image alt="" src="/assets/section1/p3.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section1/p3.jpg" />
             </div>
           </div>
           <div className={styles.video}>
@@ -64,16 +64,16 @@ export default function Home() {
           </div>
           <div className={styles.gallery}>
             <div>
-              <Image alt="" src="/assets/section2/p1.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section2/p1.jpg" />
             </div>
             <div>
-              <Image alt="" src="/assets/section2/p2.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section2/p2.jpg" />
             </div>
             <div>
-              <Image alt="" src="/assets/section2/p3.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section2/p3.jpg" />
             </div>
             <div>
-              <Image alt="" src="/assets/section2/p4.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section2/p4.jpg" />
             </div>
           </div>
           <div className={styles.video}>
@@ -95,16 +95,16 @@ export default function Home() {
           </div>
           <div className={styles.gallery}>
             <div>
-              <Image alt="" src="/assets/section3/p1.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section3/p1.jpg" />
             </div>
             <div>
-              <Image alt="" src="/assets/section3/p2.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section3/p2.jpg" />
             </div>
             <div>
-              <Image alt="" src="/assets/section3/p3.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section3/p3.jpg" />
             </div>
             <div>
-              <Image alt="" src="/assets/section3/p4.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section3/p4.jpg" />
             </div>
           </div>
           <div className={styles.video}>
@@ -126,16 +126,16 @@ export default function Home() {
           </div>
           <div className={styles.gallery}>
             <div>
-              <Image alt="" src="/assets/section4/p1.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section4/p1.jpg" />
             </div>
             <div>
-              <Image alt="" src="/assets/section4/p2.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section4/p2.jpg" />
             </div>
             <div>
-              <Image alt="" src="/assets/section4/p3.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section4/p3.jpg" />
             </div>
             <div>
-              <Image alt="" src="/assets/section4/p4.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section4/p4.jpg" />
             </div>
           </div>
           <div className={styles.video}>
@@ -162,7 +162,7 @@ export default function Home() {
                 height: "100%",
               }}
             >
-              <Image alt="" src="/assets/section5/p1.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section5/p1.jpg" />
             </div>
           </div>
           <div className={styles.video}>
@@ -188,14 +188,14 @@ export default function Home() {
                 height: "auto",
               }}
             >
-              <Image alt="" src="/assets/section6/p1.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section6/p1.jpg" />
             </div>
             <div
               style={{
                 height: "auto",
               }}
             >
-              <Image alt="" src="/assets/section6/p2.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section6/p2.jpg" />
             </div>
           </div>
           <div className={styles.video}>
@@ -227,7 +227,7 @@ export default function Home() {
                 height: "100%",
               }}
             >
-              <Image alt="" src="/assets/section7/p1.jpg" />
+              <img style={{ width: "100%" }} alt="" src="/assets/section7/p1.jpg" />
             </div>
           </div>
           <div className={styles.video}>
