@@ -34,17 +34,20 @@ export default function Header() {
         <link rel="icon" href="/favicon.jpeg" />
       </Head>
       <header className={`${styles.header_sticky}`}>
-        <div className={styles.header} style={{ display: "flex", justifyContent: "center" }}>
+        <div
+          className={styles.header}
+          style={{ display: "flex", justifyContent: "center" }}
+        >
           <Logo />
         </div>
 
-        <div style={{ display: "flex", justifyContent: "end" }}>
+        {/* <div style={{ display: "flex", justifyContent: "end" }}>
           {MENU_LIST.map((menu, index) => (
             <Link href={menu.path} key={index} underline="none">
               <MenuItem sx={{ color: active == menu.path ? "white" : "#bebec8", fontSize: { xs: 12, md: 17 } }}>{menu.name}</MenuItem>
             </Link>
           ))}
-        </div>
+        </div> */}
       </header>
     </>
   );

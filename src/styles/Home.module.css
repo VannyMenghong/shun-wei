@@ -5,7 +5,8 @@
   height: 8vh;
   z-index: 5;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   align-items: center;
   padding: 0 2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -121,8 +122,10 @@
 .footer {
   background-color: #545454;
   padding: 2rem;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  display:flex;
+  justify-content:space-between;
+  /* display: grid; */
+  /* grid-template-columns: repeat(1, 1fr); */
   color: #fff;
 }
 
