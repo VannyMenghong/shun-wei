@@ -120,6 +120,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .footer {
+  height: 500px;
   background-color: #545454;
   padding: 2rem;
   display:flex;
@@ -160,11 +161,14 @@
 
 .map {
   margin-top: 1rem;
+
 }
 
 @media (min-width: 768px) {
   .footer {
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    flex-direction: column;
   }
 }
 
