@@ -467,7 +467,7 @@ export default function Menu2() {
         }}
       >
         <video width="90%" height="auto" controls>
-          <source src="assets/menu2/video-1.mp4" type="video/mp4" />
+          <source src="assets/menu2/videos-1.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </section>
