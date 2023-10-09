@@ -15,6 +15,9 @@ import COLORS from "../../../utils/color";
 import EmailIcon from "@mui/icons-material/Email";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
+import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
+import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,10 +31,12 @@ const HeaderTitle = ({
   sub,
   main,
   is_center,
+  sx,
 }: {
   sub: String;
   main: String;
   is_center: Boolean;
+  sx: Object;
 }) => {
   return (
     <Typography
@@ -53,6 +58,8 @@ const HeaderTitle = ({
           textAlign: is_center ? "center" : "left",
           fontWeight: "700",
           fontSize: TypographyStyle.main_title,
+          textOverflow: "ellipsis",
+          ...sx,
         }}
       >
         {main}
@@ -175,7 +182,12 @@ export default function Menu2() {
       </section>
       <section style={{ margin: "80px 10px" }}>
         <div style={{ marginTop: "90px", marginBottom: "20px" }}>
-          <HeaderTitle sub="our company" main={"who are we"} is_center={true} />
+          <HeaderTitle
+            sx={{}}
+            sub="our company"
+            main={"who are we"}
+            is_center={true}
+          />
         </div>
         <ImageList cols={3}>
           {[...Array(6)].map((item, index) => (
@@ -200,7 +212,12 @@ export default function Menu2() {
         <Grid container>
           <Grid item xs={12} md={6} sx={{ p: 2 }}>
             <div>
-              <HeaderTitle sub="about our" main={"company"} is_center={false} />
+              <HeaderTitle
+                sx={{}}
+                sub="about our"
+                main={"company"}
+                is_center={false}
+              />
               <div style={{ wordBreak: "break-word", marginTop: "20px" }}>
                 <p
                   style={{
@@ -225,7 +242,12 @@ export default function Menu2() {
               </div>
             </div>
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid
+            item
+            xs={12}
+            md={6}
+            sx={{ display: "flex", paddingTop: "40px", paddingBottom: "20px" }}
+          >
             <img
               alt=""
               src="assets/menu2/p8.jpg"
@@ -241,6 +263,7 @@ export default function Menu2() {
           <Grid item xs={12} md={6} sx={{ p: 2 }}>
             <div>
               <HeaderTitle
+                sx={{}}
                 sub="OUR COMPANY"
                 main={"CERTIFICATION"}
                 is_center={false}
@@ -284,6 +307,7 @@ export default function Menu2() {
               sub="WHAT WE DO"
               main={"RESEARCH & DEVELOPMENT"}
               is_center={false}
+              sx={{ fontSize: "1.5rem !important" }}
             />
             <div style={{ wordBreak: "break-word", marginTop: "20px" }}>
               <p style={{ wordSpacing: "7px", fontSize: TypographyStyle.text }}>
@@ -309,12 +333,13 @@ export default function Menu2() {
         <Grid container>
           <Grid item xs={12} md={6} sx={{ p: 2 }}>
             <HeaderTitle
+              sx={{}}
               sub="PRODUCTION"
               main={"HOW THE PROCESS WORK"}
               is_center={false}
             />
             <div>
-              <p style={{ wordSpacing: "3px", fontSize: TypographyStyle.text }}>
+              <p style={{ fontSize: TypographyStyle.text }}>
                 {/* យើងមានការប្ដេជ្ញាចិត្តចំពោះនិរន្ដរភាព និងការគ្រប់គ្រងបរិស្ថាន ដោយបំលែងកាកសំណល់វាយនភ័ណ្ឌពីរោងចក្រកាត់ដេរទៅជារោងចក្រដែលផលិតអំបោះមានគុណភាពខ្ពស់ អាចផលិតនូវក្រណាាត់ដ៏ស្រស់ស្អាត។
                 ចូលរួមជាមួយពួកយើងក្នុងដំណើរការនៃចង្វាក់ផលិតកម្មរបស់ក្រណាត់ ផ្ដើមពីដំណាក់កាលដំបូងរហូតដល់ដំណាក់កាលចុងក្រោយ ដោយមិនប៉ះពាល់ដល់បរិស្ថាន។ */}
                 With the encouragement of the government as well as the Ministry
@@ -324,7 +349,12 @@ export default function Menu2() {
               </p>
             </div>
           </Grid>
-          <Grid item xs={12} md={6} sx={{ p: 2 }}>
+          <Grid
+            item
+            xs={12}
+            md={6}
+            sx={{ p: 2, display: "flex", alignItems: "center" }}
+          >
             <img
               alt=""
               src="assets/menu2/p15.jpg"
@@ -337,6 +367,7 @@ export default function Menu2() {
         <Grid container>
           <Grid item xs={12} md={12} sx={{ p: 2 }}>
             <HeaderTitle
+              sx={{}}
               sub="COMPANY PROCESS"
               main={"ALL OF OUR PRODUCTS"}
               is_center={false}
@@ -376,6 +407,7 @@ export default function Menu2() {
         <Grid container>
           <Grid item xs={12} md={6} sx={{ p: 2 }}>
             <HeaderTitle
+              sx={{}}
               sub="COMPANY PRODUCT"
               main={"OUR PRODUCTS"}
               is_center={false}
@@ -406,6 +438,7 @@ export default function Menu2() {
         <Grid container>
           <Grid item xs={12} md={6} sx={{ p: 2 }}>
             <HeaderTitle
+              sx={{}}
               sub="OUR COMPANY"
               main={"MEET OUR TEAM"}
               is_center={false}
@@ -437,7 +470,7 @@ export default function Menu2() {
                 zhi ke ji co.,tld
               </h5>
             </a>
-            <HeaderTitle sub="" main={"CONTACT US"} is_center={false} />
+            <HeaderTitle sx={{}} sub="" main={"CONTACT US"} is_center={false} />
             <p style={{ wordSpacing: "7px", fontSize: TypographyStyle.text }}>
               {/* ចូលរួមជាមួយពួកយើងនៅបេសកកម្មក្នុងការបង្កើតទីក្រុងបៃតងសម្រាប់ឧស្សាហកម្មវាយនភ័ណ្ឌរបស់កម្ពុជានាពេលអនាគត។ ពួកយើងរួមគ្នាកាត់បន្ថយកាកសំណល់ ការអផិរក្សធនធាន
               និងការថែរក្សាប្រទេសរបស់យើងសម្រាប់មនុស្សជំនាន់ក្រោយ។ ទាក់ទងមកយើងថ្ងៃនេះ ដើម្បីស្វែងយល់បន្ថែមអំពីវិធីសាស្រ្ត និងដំណោះស្រាយនៃការកែច្នៃឡើងវិញរបស់យើង ឬស្វែងរកឱកាសភាពជាដៃគូ។
@@ -449,6 +482,33 @@ export default function Menu2() {
               recycling solutions or to explore partnership opportunities. Let's
               weave sustainability into every thread of the textile industry!
             </p>
+            <Box sx={{ my: 2 }}>
+              <Box sx={{ display: "flex", alignItems: "center", my: 1 }}>
+                <LocalPhoneOutlinedIcon />
+                <Box sx={{ ml: 2 }}>
+                  <p style={{ fontWeight: "500" }}>+855-12-955-552</p>
+                </Box>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "center", my: 1 }}>
+                <EmailOutlinedIcon />
+                <Box sx={{ ml: 2 }}>
+                  <p style={{ fontWeight: "500 !important" }}>
+                    yuthseng888@gmail.com
+                  </p>
+                </Box>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "center", my: 1 }}>
+                <LocationOnOutlinedIcon />
+                <Box sx={{ ml: 2 }}>
+                  <p
+                    style={{ fontWeight: "500 !important", wordSpacing: "6px" }}
+                  >
+                    Prey Khvav Village, Roka Kaoh Commune, Kong Pisei District,
+                    Kampong Speu
+                  </p>
+                </Box>
+              </Box>
+            </Box>
           </Grid>
           <Grid item xs={12} md={12} sx={{ p: 1 }}>
             <img
